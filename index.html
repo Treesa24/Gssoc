@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GSSoC – Your Open Source Era Starts Here</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f5f3;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      border: 0.5px solid rgba(0,0,0,0.12);
+      padding: 2rem 1.5rem 1.5rem;
+      max-width: 640px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .stat-card {
+      background: #f5f5f3;
+      border: 0.5px solid rgba(0,0,0,0.1);
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      text-align: center;
+      animation: slideIn 0.5s ease both;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 500;
+      margin: 3px;
+    }
+
+    .step-pill {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #f5f5f3;
+      border: 0.5px solid rgba(0,0,0,0.1);
+      border-radius: 12px;
+      padding: 14px 18px;
+      margin-bottom: 10px;
+      animation: slideIn 0.5s ease both;
+    }
+
+    .step-num {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      font-size: 13px;
+      flex-shrink: 0;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: #dbeafe;
+      color: #1e40af;
+      border-radius: 20px;
+      padding: 5px 16px;
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 2rem;
+    }
+
+    .cta-btn {
+      background: #534AB7;
+      color: #EEEDFE;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 28px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      width: 100%;
+      max-width: 300px;
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .cta-btn:hover { background: #3C3489; }
+
+    .quote-block {
+      background: #f5f5f3;
+      border: 0.5px solid rgba(0,0,0,0.1);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.5rem;
+      border-left: 3px solid #7F77DD;
+    }
+  </style>
+</head>
+<body>
+<div class="card">
+
+  <div style="text-align:center; margin-bottom:2rem;">
+    <div class="hero-badge">Applications Open Now</div>
+    <h1 style="font-size:28px; font-weight:500; line-height:1.25; margin:0 0 10px; color:#111;">
+      Your open-source era<br>starts here.
+    </h1>
+    <p style="color:#555; font-size:15px; line-height:1.6; margin:0 0 1.5rem;">
+      GirlScript Summer of Code isn't just a program — it's the launchpad where students become contributors, contributors become builders, and builders shape the future.
+    </p>
+    <div>
+      <span class="tag" style="background:#EEEDFE; color:#3C3489;">Beginner-friendly</span>
+      <span class="tag" style="background:#E1F5EE; color:#085041;">Real projects</span>
+      <span class="tag" style="background:#FAECE7; color:#712B13;">Global community</span>
+      <span class="tag" style="background:#FAEEDA; color:#633806;">Mentorship</span>
+      <span class="tag" style="background:#E6F1FB; color:#0C447C;">Certificates &amp; swag</span>
+    </div>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-card" style="animation-delay:0.1s">
+      <div style="font-size:24px; font-weight:500; color:#111;">10K+</div>
+      <div style="font-size:12px; color:#666; margin-top:4px;">Contributors worldwide</div>
+    </div>
+    <div class="stat-card" style="animation-delay:0.2s">
+      <div style="font-size:24px; font-weight:500; color:#111;">500+</div>
+      <div style="font-size:12px; color:#666; margin-top:4px;">Open source projects</div>
+    </div>
+    <div class="stat-card" style="animation-delay:0.3s">
+      <div style="font-size:24px; font-weight:500; color:#111;">3 mos</div>
+      <div style="font-size:12px; color:#666; margin-top:4px;">Of hands-on learning</div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:1.5rem;">
+    <p style="font-size:13px; font-weight:500; color:#888; text-transform:uppercase; letter-spacing:0.05em; margin:0 0 12px;">Your journey in 4 steps</p>
+
+    <div class="step-pill" style="animation-delay:0.15s">
+      <div class="step-num" style="background:#EEEDFE; color:#3C3489;">1</div>
+      <div>
+        <div style="font-size:14px; font-weight:500; color:#111;">Register for free</div>
+        <div style="font-size:12px; color:#666;">No experience required — just curiosity and a willingness to learn</div>
+      </div>
+    </div>
+
+    <div class="step-pill" style="animation-delay:0.25s">
+      <div class="step-num" style="background:#E1F5EE; color:#085041;">2</div>
+      <div>
+        <div style="font-size:14px; font-weight:500; color:#111;">Pick a project</div>
+        <div style="font-size:12px; color:#666;">Browse real repos across web, ML, mobile, DevOps and more</div>
+      </div>
+    </div>
+
+    <div class="step-pill" style="animation-delay:0.35s">
+      <div class="step-num" style="background:#FAEEDA; color:#633806;">3</div>
+      <div>
+        <div style="font-size:14px; font-weight:500; color:#111;">Contribute with mentors by your side</div>
+        <div style="font-size:12px; color:#666;">Get code reviews, guidance, and feedback from experienced developers</div>
+      </div>
+    </div>
+
+    <div class="step-pill" style="animation-delay:0.45s">
+      <div class="step-num" style="background:#FAECE7; color:#712B13;">4</div>
+      <div>
+        <div style="font-size:14px; font-weight:500; color:#111;">Earn, grow, and get noticed</div>
+        <div style="font-size:12px; color:#666;">Certificates, leaderboards, swag — and a GitHub profile that speaks for itself</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="quote-block">
+    <p style="font-size:14px; color:#222; font-style:italic; margin:0 0 6px; line-height:1.6;">
+      "Your first pull request is just the beginning. GSSoC turns first-timers into open-source regulars — and regulars into community leaders."
+    </p>
+    <p style="font-size:12px; color:#888; margin:0;">Past GSSoC participants now at Google, Microsoft, and top startups</p>
+  </div>
+
+  <div style="text-align:center;">
+    <p style="font-size:13px; color:#666; margin:0 0 12px;">The best time to start was yesterday. The second best time is right now.</p>
+    <a class="cta-btn" href="https://gssoc.girlscript.org" target="_blank">Start your journey →</a>
+  </div>
+
+</div>
+</body>
+</html>
